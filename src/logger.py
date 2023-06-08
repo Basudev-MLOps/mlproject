@@ -14,5 +14,5 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-# if __name__=="__main__":
-#     logging.info('Logging works perfectly, remove the if__name__ once you see the this log')
+if __name__=="__main__":
+    logging.info('Logging works perfectly, remove the if__name__ once you see the this log')
