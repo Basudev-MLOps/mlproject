@@ -13,7 +13,7 @@ app=application
 
 @app.route('/') # render to index.html to search in templates folder
 def index():
-    return render_template('index.html') 
+    return render_template('index.html') # to go to home page
 
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
